@@ -5,7 +5,7 @@
 * [Dataset](#dataset)
 * [Technology stack](#technology-stack)
 * [Tableau](#tableau)
-* [Project status](#project status)
+* [Project status](#project-status)
 * [Room for improvement](#room-for-improvement)
 * [Contact](#contact)
 
