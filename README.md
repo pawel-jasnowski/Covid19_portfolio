@@ -1,13 +1,13 @@
 ### Exploratory Analysis of Covid19 Dataset with SQL
 
 ## Table of contents
-[General Info](#general-information)
-[Dataset](#dataset)
-[Technology stack](#technology-stack)
-[Tableau](#tableau)
-[Project status](#project status)
-[Room for improvement](#room-for-improvement)
-[Contact](#contact)
+* [General Info](#general-information)
+* [Dataset](#dataset)
+* [Technology stack](#technology-stack)
+* [Tableau](#tableau)
+* [Project status](#project status)
+* [Room for improvement](#room-for-improvement)
+* [Contact](#contact)
 
 ## General Information
 An exploratory data analysis project on Covid19 cases, deaths, and vaccinations from, 1st Jan, 2020 to September 2023. I could spend hours and hours and investigate this dataset. Pourpose of this project is to practice SQL queries - basic and intermediate ones.
