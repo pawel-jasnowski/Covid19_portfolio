@@ -14,7 +14,8 @@ An exploratory data analysis project on Covid19 cases, deaths, and vaccinations 
 
 ## Dataset
 
-Dataset is available for free at: [link](https://ourworldindata.org/coronavirus)
+Dataset is available for free at: (https://ourworldindata.org/coronavirus)
+
 The data on the coronavirus pandemic is updated daily. 
 
 ## Technology Stack
@@ -23,7 +24,7 @@ This project is purely based on SQL Server. I`m using MySql and Dbeaver as a cli
 
 ## Tableau
 
-Link to the public viz - [link](https://public.tableau.com/app/profile/pawel.jasnowski/viz/Covid19_part1/Dashboard1)
+Link to the public viz - (https://public.tableau.com/app/profile/pawel.jasnowski/viz/Covid19_part1/Dashboard1)
 
 ## Project Status
 
