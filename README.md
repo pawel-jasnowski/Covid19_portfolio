@@ -16,7 +16,7 @@ An exploratory data analysis project on Covid19 cases, deaths, and vaccinations 
 
 Dataset is available for free at: (https://ourworldindata.org/coronavirus)
 
-The data on the coronavirus pandemic is updated daily. I have extracted some of the original data to two files: deaths and vaccination. Thea reason why is - to much information at once and I wanted to split this original dataset to two separately files to make 'join queries' in SQL.
+The data on the coronavirus pandemic is updated daily. I have extracted some of the original data to two files: deaths and vaccination. Thea reason why is - to much information at once and I wanted to split this original dataset to two separately files to make 'join queries' in SQL. Check temp.ipynb for code. 
 
 ## Technology Stack
 
