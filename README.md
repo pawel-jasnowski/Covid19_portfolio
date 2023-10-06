@@ -33,6 +33,11 @@ Part one of this project is completed
 
 Covid19 part 2 portfolio
 
+## Contact
+
+Feel free to contact me: *pawel.jasnowski@gmail.com*, [Linkedin](https://www.linkedin.com/in/pawel-jasnowski/)
+
+
 
 
 
