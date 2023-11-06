@@ -1,3 +1,7 @@
+/* I have to tables - deaths and vaccination
+I will work with each of them  */ 
+
+-- DEATHS TABLE FIRST 
 select *
 from covid19_portfolio.covid19_deaths
 order by 3,4;
@@ -32,7 +36,6 @@ from covid19_portfolio.covid19_deaths
 order by 1,2
 
 -- Looking at total case vs total deaths 
--- Shows likelihood of dying if you contract covid in your country
 
 select location , date , total_cases  , total_deaths , (total_deaths/total_cases)*100 as DeathPercentage
 from covid19_portfolio.covid19_deaths
@@ -71,8 +74,6 @@ order by PercentPopulationInfected desc
 
 -- Showing countries with highest death count per population
 
-
---
 select location , max(total_deaths) as TotalDeathCount
 from covid19_portfolio.covid19_deaths
 where continent is not null
@@ -204,6 +205,54 @@ create view DeathPercentageAcrossTheWorld as
  from covid19_portfolio.covid19_deaths
  where continent is not null
 order by 1,2
+
+-- Tableau Portfolio Project SQL Queries
+
+-- 1.  Death Percentage Across the Globe 
+select date, sum(new_cases ) as total_cases , sum(new_deaths) as total_deaths, sum(new_deaths)/sum(new_cases)*100 as DeathPercentageAcrossWorld
+from covid19_portfolio.covid19_deaths
+where continent is not null
+group by date 
+order by 1,2
+
+-- 2. Total Death Count by continent 
+
+select continent , sum(new_deaths) as TotalDeathCount
+from covid19_portfolio.covid19_deaths
+where continent is not null 
+group by continent 
+order by TotalDeathCount desc 
+
+-- 3.  Total cases /deaths / deths percentage across th globe on September 2023
+
+select sum(new_cases ) as total_cases , sum(new_deaths) as total_deaths, sum(new_deaths)/sum(new_cases)*100 as DeathPercentageAcrossWorld
+from covid19_portfolio.covid19_deaths
+where continent is not null
+order by 1,2
+
+-- 4. Percentage population infeceted by country 
+
+select location , population ,max( total_cases ) as HighestInfectionCount , max( (total_cases /population)*100) as PercentPopulationInfected
+from covid19_portfolio.covid19_deaths
+-- where location = 'Poland'
+group by location , population 
+order by PercentPopulationInfected desc 
+
+
+select location , population , date ,max( total_cases ) as HighestInfectionCount , max( (total_cases /population)*100) as PercentPopulationInfected
+from covid19_portfolio.covid19_deaths
+-- where location = 'Poland'
+group by location, population ,  date 
+order by location
+
+
+-- 5. Showing countries with highest death count per population
+
+select location, max(total_deaths) as TotalDeathCount, max((total_deaths / population )*100)  as DeathsAsPercentOfPopulation
+from covid19_portfolio.covid19_deaths
+where continent is not null
+group by location
+order by TotalDeathCount desc 
 
 
 
