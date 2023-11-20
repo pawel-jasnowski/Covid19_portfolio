@@ -16,9 +16,9 @@ An exploratory data analysis project on Covid19 cases, deaths, and vaccinations 
 
 Dataset is available for free at: (https://ourworldindata.org/coronavirus)
 
-The data on the coronavirus pandemic is updated daily. I have extracted some of the original data to two files: deaths and vaccination. Thea reason why is - to much information at once and I wanted to split this original dataset to two separately files to make 'join queries' in SQL. Check temp.ipynb for code.
+The data on the coronavirus pandemic is updated daily. I have extracted some of the original data to two files: deaths and vaccination. Thea reason why is - to much information at once and I wanted to split this original dataset to two separately files to make 'join queries' in SQL. Check temp.ipynb for code. In fact - there is a lot more information that I need for that project but I will leave it as it is.
 
-WARNING - dataset from https://ourworldindata.org/coronavirus could be pretty big - I could not uploud it to github. As You download it as 'owid-covid-data' go to my 'temp.ypynb' and split this dataset. 
+WARNING - dataset from https://ourworldindata.org/coronavirus is pretty big - I could not uploud it to github. As You download it as 'owid-covid-data' go to my 'temp.ypynb' and split this dataset. 
 
 ## Technology Stack
 
