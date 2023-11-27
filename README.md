@@ -27,6 +27,7 @@ This project is purely based on SQL Server. I`m using MySql and Dbeaver as a cli
 ## Tableau
 
 Link to the public viz - Covid19 - Deaths and general (https://public.tableau.com/app/profile/pawel.jasnowski/viz/Covid19_part1/Dashboard1)
+
 Covid19 Vaccination (https://public.tableau.com/app/profile/pawel.jasnowski/viz/Covid19Vaccination_17006879679260/Dashboard1)
 
 ## Project Status
